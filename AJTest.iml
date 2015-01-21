@@ -2,7 +2,13 @@
 <module type="JAVA_MODULE" version="4">
   <component name="FacetManager">
     <facet type="AspectJ" name="AspectJ">
-      <configuration />
+      <configuration>
+        <option name="aspectPath">
+          <projectLibrary>
+            <option name="name" value="aspectjrt" />
+          </projectLibrary>
+        </option>
+      </configuration>
     </facet>
   </component>
   <component name="NewModuleRootManager" inherit-compiler-output="true">

@@ -20,7 +20,7 @@ public class Main {
             System.out.println("@Aspectj FAILURE");
         }
 
-        int tmp1 = 1;
+        int tmp1 = 2;
     }
 
     public static void test() {
