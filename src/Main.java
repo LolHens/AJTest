@@ -3,6 +3,7 @@
  */
 public class Main {
     public static boolean aspectj = false;
+    public static boolean atAspectj = false;
 
     public static void main(String[] args) {
         test();
@@ -11,6 +12,12 @@ public class Main {
             System.out.println("AspectJ SUCCESS!");
         } else {
             System.out.println("Aspectj FAILURE");
+        }
+
+        if (atAspectj) {
+            System.out.println("@AspectJ SUCCESS!");
+        } else {
+            System.out.println("@Aspectj FAILURE");
         }
 
         int tmp1 = 1;
