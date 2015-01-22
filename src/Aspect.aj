@@ -5,6 +5,6 @@ public aspect Aspect {
     after(): call(* *.test(..)) {
         Main.aspectj = true;
 
-        int tmp2 = 1;
+        int tmp2 = 1; // change to test
     }
 }

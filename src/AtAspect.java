@@ -10,6 +10,6 @@ public class AtAspect {
     public void after() {
         Main.atAspectj = true;
 
-        int tmp3 = 1;
+        int tmp3 = 2; // change to test
     }
 }
